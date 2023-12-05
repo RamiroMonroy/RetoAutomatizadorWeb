@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Bancolombia.Automatizacion</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="bfe3ca82a856e406c66f7cc1a547392d344f0a8c1bd8232e97ab9826c088546a.html">Test The Functionality Of The Page Exito.Com</a></span>
+                > <span class="truncate-60"><a
+                    href="67f2f8800ce84d593583ce4db19545f1a1d45cc4a96cc56c05f28c4b22f88104.html">validate product data in the shopping cart </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-12-2023 21:36</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Test The Functionality Of The Page Exito.Com </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                I as a PO want to validate that when buying items from the page, the name,
+quantity and value are correct in the shopping cart
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">validate product data in the shopping cart
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="bc3803c8e8902a92a85e88c545a10a4abda433eb486aa0b20c50dadbaaff06af.png" title="Given that the user is on the web page" width="1366"/>
+                <img src="bc3803c8e8902a92a85e88c545a10a4abda433eb486aa0b20c50dadbaaff06af.png" title="Ramiro opens the Main page" width="1366"/>
+                <img src="27fe3048e8eb6691422fe343554a8e328cadb0b225fc06cb67b016c680b6620f.png" title="When choose five products at random each product has random quantities between one and ten" width="1366"/>
+                <img src="208c3c2515500cdf71003dd4cdf7adaf73a5d6a34ad1737181ef2600f7b55cc8.png" title="Ramiro clicks on category_menu" width="1366"/>
+                <img src="d4b78084ae93855f01f40f6b00f391c59ffbb7a21e32adf32ad7762008b83fbb.png" title="Ramiro clicks on list_category" width="1366"/>
+                <img src="85736271cb223e9739fb8b87ab77cc382c93bc5310871cec1a72096506952edc.png" title="Ramiro clicks on sub_category" width="1366"/>
+                <img src="d9c5b4fe4d8a261139a69a9fd185abc74314b61559cb825ebca5948d8c0fa5fb.png" title="Ramiro clicks on window_data_city" width="1366"/>
+                <img src="3b71d4dba5f85d6209934dda49348f1a8d8886d21206d587bac66d9d8dba6687.png" title="Ramiro enters 'Chia' into window_data_city" width="1366"/>
+                <img src="e007a25c344eb39c76a889e8145247aafad3d02aa36b2257abccd04ee0e7c1da.png" title="Ramiro clicks on window_data_store" width="1366"/>
+                <img src="1fe291d7debc0a36eff9a8860e9433fb1369ec2f5d7fface9a6a5121ee590cdc.png" title="Ramiro enters 'E' into window_data_store" width="1366"/>
+                <img src="262c4237f88317877b510b0cfebcdc8d51eaac1260a8b3cc6deb5874df80a49a.png" title="Ramiro clicks on window_data_button_email" width="1366"/>
+                <img src="e8d4affec98f645595171bd2d905631adf95288e9ebc49ec67cbf926d6c96c8e.png" title="Ramiro clicks on window_email" width="1366"/>
+                <img src="051cf14a5f2aef57bb816d5e9d4b324793018a40385d96843fdbe7e51285be14.png" title="Ramiro enters 'nn@gmail.com' into window_email" width="1366"/>
+                <img src="0d008e2689bbf7c7ec45417243d85e78edd43cfbf6e0b711a7b5c41bcbc3e14c.png" title="Ramiro clicks on button" width="1366"/>
+                <img src="bda1cf60caa47d092673033dd90c4c496194828fbd29140d579e8aaf2ba45754.png" title="Ramiro clicks on button_confirm" width="1366"/>
+                <img src="c7dd3f7abd636b7b3f43ce8b0990c9fa7d86286999309723c11ea82d1a013caf.png" title="Ramiro clicks on products_menu" width="1366"/>
+                <img src="d27738cb6277c9f98991fd7b354a3e3e98c9fea416f0f706a7fe8940785f0e2b.png" title="Then scroll should be an element that is visible" width="1366"/>
+                <img src="0a22562962812f1756af66b44c1e126738613cc32e09575df986138ae9d8eca8.png" title="Ramiro clicks on add" width="1366"/>
+                <img src="ba92b047a3a45b125ca2f632e92c86f716b4376ec0cc6e11ef9873133867b15c.png" title="Ramiro clicks on amount" width="1366"/>
+                <img src="f91ba8e32afd3b1a5b42082f41df2a4b78aa8f17def10aa5a55505780fb49976.png" title="Ramiro clicks on amount" width="1366"/>
+                <img src="eed72a568f63a5448d9777473483882dc293aa1416582e567d5eecb08a8a9650.png" title="Ramiro clicks on amount" width="1366"/>
+                <img src="0c6974eb8bfb64d936d0ec604a572ed5bec6e097550c04cd3a2207665b02fd3d.png" title="Ramiro clicks on amount" width="1366"/>
+                <img src="fc8ee656614262119c4fe313a39b60983d4f67070915ec3945972b3f674f60a4.png" title="Ramiro clicks on category_menu" width="1366"/>
+                <img src="8a5c9adebb495ecacf49b58e00f4fd985f3aed8e0924b3b5ad470b71d8f165a0.png" title="Ramiro clicks on list_category" width="1366"/>
+                <img src="be42bcacd25e4636419c8a205e26456dc751ee16a9f02abd1bec45206b7ab74a.png" title="Ramiro clicks on sub_category" width="1366"/>
+                <img src="9fb6f015908e65a9de50b4a2e7329efc3146e183d7bd0d202ed92a83108a7e72.png" title="Ramiro clicks on products_menu" width="1366"/>
+                <img src="06ce1007d888919756749e1b0ec10b14a7c5dcc7fab3cddf25979607acc14b71.png" title="Then scroll should be an element that is visible" width="1366"/>
+                <img src="e40c87b7c4bef654a1234d914318652ad6b1814efdebb24950ee50f752757fb3.png" title="Ramiro clicks on add" width="1366"/>
+                <img src="55be5b27f58b09ed2066102e3612cdecca5180674a71d5ecf3f15b6ab1e32ced.png" title="Ramiro clicks on amount" width="1366"/>
+                <img src="c9ce4271b5226da59139c6995eaebfeb3af08184ae9dbe2bf78826849cc65639.png" title="Ramiro clicks on amount" width="1366"/>
+                <img src="3dc87a4723f2fc7ed1ffda42b440e3f361061a8db7ea107c32b9595eac94fb90.png" title="Ramiro clicks on category_menu" width="1366"/>
+                <img src="ef38ae875cd1f29c4e35e37283645728bcda5a841af469762a60f3ab41aadbf7.png" title="Ramiro clicks on list_category" width="1366"/>
+                <img src="4ed0cecd5572cc4446c7581197bcfea2bc5b589df39ce3002333818b860a0d09.png" title="Ramiro clicks on sub_category" width="1366"/>
+                <img src="14ab462a49da7d266e470a91ec53cea00d4e6b8444c6e686201efcc2f447420a.png" title="Ramiro clicks on products_menu" width="1366"/>
+                <img src="51dfe4449d3d7ce3ec386804d7b52737f679cf274f22c0d754605295eba718a7.png" title="Then scroll should be an element that is visible" width="1366"/>
+                <img src="cc576a7cb6d3b41b2a8c149d62615b1eacba2463a08ae19add55948a6d43e945.png" title="Ramiro clicks on add" width="1366"/>
+                <img src="879ab68ef76c7ce18ec97c760ac4afbaff9dd9c5d6ee91719f89d5a88488766d.png" title="Ramiro clicks on amount" width="1366"/>
+                <img src="0162993013cf23955cad915733dc792210e1a1c75fb7cb17d2125cb0b0ea7390.png" title="Ramiro clicks on category_menu" width="1366"/>
+                <img src="a4990b583900a128ff1713a08823c2cd8820a9e734b64a675da8e94d91cced26.png" title="Ramiro clicks on list_category" width="1366"/>
+                <img src="10788e94d97e343f7120207818222e6301edc351ba2fbe8c24c2c80697b84f7c.png" title="Ramiro clicks on sub_category" width="1366"/>
+                <img src="1ec196d2c3c5b7bfb4d12c84329e1515d3b4d8668defbd1c9421b1bc2ff59e0f.png" title="Ramiro clicks on products_menu" width="1366"/>
+                <img src="0ca80ee0ce51b0d1ac77a594686952c11d75ab74c9755ae0e41a461892e633e6.png" title="Then scroll should be an element that is visible" width="1366"/>
+                <img src="933a1d789a243402b6a73ad12cbefcddbf062f13dc355c52c7b21d5954199726.png" title="Ramiro clicks on add" width="1366"/>
+                <img src="8cde151bd5fd6bd47d0d2eea3cb7c62a46eef0d619d4eddec207c556c97e0fd2.png" title="Ramiro clicks on amount" width="1366"/>
+                <img src="6b6a679af740d5daf569c34514966cdc78c7b297617d01de0c662a4eac91bdef.png" title="Ramiro clicks on amount" width="1366"/>
+                <img src="cd2a80c69bd6c8a6730b78e9dd700d15ded670f592ec358577384b70c9ecb004.png" title="Then shopping_car should be an element that is visible" width="1366"/>
+                <img src="e56024cd49057119dd5d05c2d99193d8f4512cf19a90fe2f5e17978cdba325b6.png" title="Ramiro clicks on shopping_car" width="1366"/>
+                <img src="27c3e8cf4dae12d7e024b0342d114e8813f8e1acfead39c416ed5207b87505c9.png" title="Then the name of the added products are the same as in the shopping cart" width="1366"/>
+                <img src="27c3e8cf4dae12d7e024b0342d114e8813f8e1acfead39c416ed5207b87505c9.png" title="Then validate name" width="1366"/>
+                <img src="27c3e8cf4dae12d7e024b0342d114e8813f8e1acfead39c416ed5207b87505c9.png" title="Then the price of the added products are the same as in the shopping cart" width="1366"/>
+                <img src="27c3e8cf4dae12d7e024b0342d114e8813f8e1acfead39c416ed5207b87505c9.png" title="Then validate total price: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
